@@ -1,0 +1,252 @@
+.userChannel
+{
+	.tabshead1
+	{
+		.s3
+		{
+			width: 20% !important;
+		}
+	}
+	.row
+	{
+		.uCleft
+		{
+			background-color: #252525;
+			padding-bottom: 20px !important;
+			overflow: hidden;
+
+			.enlevel
+			{
+				
+
+			    display: inline-block;
+			    float: right;
+			    position: relative;
+			    width: 40px;
+			    top: 25px;
+			    right: 5px;
+
+
+				span 
+				{
+					background-color: rgba(0,0,0,0.2);
+					padding: 5px 8px 5px 8px;
+					border-radius: 5px;
+					font-size: 15px;
+					box-shadow: 0px 0px 3px rgba(0,0,0,0.2);
+				}
+			}
+
+			.videoSetting
+			{
+				background-color: rgba(0,0,0,0.6) !important;
+				position: relative;
+				top: 20px;
+				left: 10px;
+				padding: 5px;
+				border-radius: 3px;
+				box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+
+				i 
+				{
+					position: relative;
+					top: 10px;
+
+				}
+			}
+			
+			img 
+			{
+				display: block !important;
+				margin: 20px auto;
+				width: 150px;
+				height: 150px;
+				border-radius: 50%;
+				border: solid 10px #101010; 
+				border-left: solid 10px cyan;
+			}
+
+			.ProfileSSTbtns
+			{
+				text-align: center;
+				a 
+				{
+					display: block;
+					margin: 0 auto;
+					max-width: 170px;
+				}
+			}
+
+			.profileMenu
+			{
+				ul
+				{
+					
+				}
+				li 
+				{
+					display: block;
+					max-width: 170px;
+					margin: 0 auto;
+					a 
+					{
+						color:#fff;
+
+						&:hover
+						{
+							text-decoration: underline;
+						}
+
+					}
+				}
+			}
+		}
+		.uCright
+		{
+			padding-right: 0 !important;
+
+			.card
+			{
+				.category,.time
+				{
+					//display: none !important;
+					font-size: 10px;
+				}
+				.views
+				{
+					top: 11px;
+					font-size: 10px;
+				}
+
+			}
+
+			.tabshead1
+			{
+				margin-top: 0 !important;
+			}
+
+			nav 
+			{
+				margin-top: 20px;
+			}
+		}	
+	}
+
+
+
+}
+
+@media only screen and (min-width: 1280px) 
+{
+	.userChannel .card
+	{
+		width: 33%;
+	}
+}
+
+@media only screen and (min-width: 1900px) 
+{
+	.userChannel .card
+	{
+		width: 24%;
+	}
+}
+
+
+@media only screen and (min-width: 993px) 
+{
+	.uCleft
+	{
+		.videoSetting
+		{
+			display: none;
+		}
+	}
+}
+
+@media only screen and (max-width: 992px) 
+{
+	
+		.uCleft, .uCright
+		{
+			display:block !important;
+			width: 100% !important;
+			padding: 0 !important;
+		}
+
+		.uCright
+		{
+			padding-right: 0 !important;
+		}
+
+		.uCleft
+		{
+			.enlevel
+			{
+				
+
+			    
+			}
+		}
+
+		.profileMenu
+		{
+			ul
+			{
+				padding: 20px;
+				text-align: center;
+			}
+			li 
+			{
+				display: inline-block !important;
+				max-width: auto !important;
+				//margin: 10px 20px !important;
+				a 
+				{
+					
+					&:hover
+					{
+						text-decoration: underline;
+					}
+
+				}
+			}
+		}
+	
+}
+
+
+
+.uploadsvv
+{
+	margin: 80px 0 !important;
+}
+
+.socM
+{
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+	display: inline-block;
+	padding: 20px;
+	a 
+	{
+		height: 30px !important;
+		width: 30px !important;
+		font-size: 13px !important;
+		line-height: 20px !important;
+		margin: 0 5px;
+		background-color: transparent !important; 
+		box-shadow: none !important;
+
+		i 
+		{
+			line-height: 31px !important;
+    		font-size: 13px;
+		}
+
+		&:hover
+		{
+			background-color: auto !important;
+		}
+
+	}
+}

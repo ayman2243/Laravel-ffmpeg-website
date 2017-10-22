@@ -1,0 +1,79 @@
+.userHistory
+{
+	h3 
+	{
+		overflow: hidden;
+		padding: 20px 0px 20px 0px;
+		span 
+		{
+			position: relative;
+			top: 10px;
+		}
+	}
+	.clearHistoryBtn
+	{
+		font-size: 13px;
+		float: right;
+		background-color: transparent;
+		&:hover
+		{
+			background-color: #01a7e6;
+		}
+	}
+}
+
+
+@media only screen and (min-width: 1200px) 
+{
+	.userHistory
+	{
+		h3 
+		{
+			font-size: 22px;
+		}
+	}
+}
+
+@media only screen and (max-width: 1200px) 
+{
+	.userHistory
+	{
+		h3 
+		{
+			font-size: 22px;
+		}
+	}
+}
+
+@media only screen and (max-width: 992px) 
+{
+	.userHistory
+	{
+		h3 
+		{
+			font-size: 20px;
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) 
+{
+	.userHistory
+	{
+		h3 
+		{
+			font-size: 18px;
+		}
+	}
+}
+
+@media only screen and (max-width: 601px) 
+{
+	.userHistory
+	{
+		h3 
+		{
+			font-size: 16px;
+		}
+	}
+}
